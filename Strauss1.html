@@ -262,7 +262,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
-
 <script>
     function openOverlay(url) {
         document.querySelector('.overlay').style.display = 'flex';
@@ -280,34 +279,7 @@
             closeOverlay();
         }
     });
-
-    window.addEventListener('load', function() {
-        checkScreenSize();
-    });
-    window.addEventListener('resize', checkScreenSize);
-
-    // Änderung für Swipe und Zoom
-    let touchStartX = 0;
-    let touchEndX = 0;
-
-    document.getElementById('overlay-iframe').addEventListener('touchstart', function(event) {
-        touchStartX = event.touches[0].clientX;
-    }, false);
-
-    document.getElementById('overlay-iframe').addEventListener('touchend', function(event) {
-        touchEndX = event.changedTouches[0].clientX;
-        handleSwipe();
-    }, false);
-
-    function handleSwipe() {
-        if (touchStartX - touchEndX > 50) { // Swiped left
-            // Optional: Logic for swiping left
-        }
-
-        if (touchEndX - touchStartX > 50) { // Swiped right
-            // Optional: Logic for swiping right
-        }
-    }
 </script>
+    
 </body>
 </html>
