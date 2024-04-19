@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impressum - Morphing Institute Orchester</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #1a1a1a;
+            color: #1d2125;
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        @font-face {
+  font-family: 'MyCustomFontBold';
+  src: url('fonts/Verlag-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'MyCustomFontRegular';
+  src: url('fonts/Verlag-Book.otf') format('opentype');
+}
+
+        .container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px; /* Increased padding */
+            max-width: 900px; /* More controlled max-width */
+            margin: 0 auto;
+            background-color: #1d1a1a;
+            width: 100vw;
+            box-sizing: border-box;
+            margin-bottom: vh;
+        }
+
+
+
+        h1, h2, p {
+            width: 100%;
+            max-width: 800px; /* Max Breite des Textes */
+            text-align: center; /* Zentriert den Text */
+            color: goldenrod;
+        }
+
+        h1 {
+            font-weight: 700;
+            font-size: 2.7rem;
+            margin-bottom: 0.5em;
+            font-family: "MyCustomFontBold";
+
+        }
+
+        h2 {
+            font-weight: 700;
+            font-size: 1.5rem;
+            margin-bottom: 0.25em;
+            font-family: "MyCustomFontBold";
+
+        }
+
+        p {
+            font-weight: 400;
+            line-height: 1.6;
+            font-size: 1.3rem;
+            margin-bottom: 1em;
+            color: #c7bfbf;
+            font-family: "MyCustomFontRegular";
+
+        }
+
+        a {
+            color: #8d99a5;
+            text-decoration: underline;
+        }
+
+        a:hover {
+            color: #2773c4;
+        }
+
+        .footer {
+            font-size: 0.875rem;
+            text-align: center;
+            color: #b3abab;
+            padding: 20px;
+            width: 100%;
+            background-color: #0f1011;
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Responsive Anpassungen */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px; /* Reduce padding for smaller screens */
+            }
+
+            h1, h2 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Impressum</h1>
+    <img src="Images/fingerprints.svg" alt="Morphing Institute Orchester Logo" width="200" height="100">
+    <h2>Morphing Institute Orchester</h2>
+    <p><strong>Adresse:</strong> Maxingstraße 22/24, 1130 Wien, Österreich</p>
+    <p><strong>E-Mail:</strong> <a href="mailto:info@morphinginstituteorchester.at">info@morphinginstituteorchester.at</a></p>
+    <p><strong>Geschäftsführung:</strong> Tomasz Wabnic</p>
+    <p><strong>Zuständiges Gericht:</strong> Handelsgericht Wien</p>
+    <p><strong>Unternehmensregisternummer:</strong> ...</p>
+    <p><strong>Aufsichtsbehörde:</strong> Magistratisches Bezirksamt des I. Bezirks</p>
+    <p><strong>Umsatzsteuer-ID:</strong> ...</p>
+    <p><strong>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</strong> Tomasz Wabnic, Adresse wie oben.</p>
+    <p><strong>Website created by:</strong> Nichita Pavliuc, Mohamed Mosallem, Samuel Brunner</p>
+</div>
+<div class="footer">
+    © Morphing Institute Orchester, 2024. Alle Rechte vorbehalten.
+</div>
+</body>
+</html>
