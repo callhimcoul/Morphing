@@ -1,88 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
-  <head>
+<head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Morphing</title>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
     <script src="https://unpkg.com/fullcalendar@5/main.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400&display=swap" rel="stylesheet"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/perfect-scrollbar/css/perfect-scrollbar.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="navbar.css" /> <!-- Navbar CSS -->
+    <link rel="stylesheet" href="navbar.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/> <!-- Swiper CSS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
-  </head>
+</head>
 
-  <style>
+<style>
     @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
-  </style>
+</style>
 
 <div class="menu-overlay"></div>
 
-
-  <nav class="navbar">
-
+<nav class="navbar">
 
     <div class="brand-logo">
-      <a href="#home">
-        <img src="https://i.imgur.com/HvkRXDW.png" alt="Brand Logo">
-      </a>
+        <a href="#home">
+            <img src="https://i.imgur.com/HvkRXDW.png" alt="Brand Logo">
+        </a>
     </div>
-      <a href="#" class="toggle-button">
+    <a href="#" class="toggle-button">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
     </a>
     <div class="navbar-links">
         <ul>
-          <li class="dropdown">
-            <a href="#">Our Orchestra</a>
-            <ul class="dropdown-content">
-                <li><a href="#orchestra">Our Orchestra</a></li>
-                <li><a href="#biography">Tomasz Wabnic</a></li>
-                <li><a href="#our-team">Our Team</a></li>
-                <li><a href="#our-musicians">Our Musicians</a></li>
-            </ul>
-        </li>
             <li class="dropdown">
-                <a href="#">Concerts</a>
+                <a href="#">Unser Orchester</a>
                 <ul class="dropdown-content">
-                    <li><a href="#video-carousel">Projects</a></li>
-                    <li><a href="#concertsandtickets">Calendar</a></li>
+                    <li><a href="#orchestra">Das Orchester</a></li>
+                    <li><a href="#biography">Tomasz Wabnic</a></li>
+                    <li><a href="#our-team">Unser Team</a></li>
+                    <li><a href="#our-musicians">Unsere Musiker</a></li>
                 </ul>
             </li>
             <li class="dropdown">
-              <a href="#">Media</a>
-              <ul class="dropdown-content">
-                  <li><a href="#images">Images</a></li>
-                  <li><a href="#videos">Videos</a></li>
-                  <li><a href="#discography">Discography</a></li>
-              </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#">Support Us</a>
-            <ul class="dropdown-content">
-                <li><a href="#news">News</a></li>
-                <li><a href="#contact-footer">Contact Us</a></li>
-              </ul>
-        </li>
+                <a href="#">Konzerte</a>
+                <ul class="dropdown-content">
+                    <li><a href="#video-carousel">Projekte</a></li>
+                    <li><a href="#concertsandtickets">Kalendar</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Medien</a>
+                <ul class="dropdown-content">
+                    <li><a href="#images">Galerie</a></li>
+                    <li><a href="#videos">Videos</a></li>
+                    <li><a href="#discography">Diskografie</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Support</a>
+                <ul class="dropdown-content">
+                    <li><a href="#news">Aktuelles</a></li>
+                    <li><a href="#contact-footer">Kontakt</a></li>
+                </ul>
+            </li>
         </ul>
     </div>
 
@@ -102,10 +89,10 @@
       <source src="https://i.imgur.com/CFDDcLq.mp4" type="video/mp4"/>
       Your browser does not support HTML5 video.
     </video>
-    <div id="microphone-icon">
-      <img src="https://i.imgur.com/D0IAkvA.png" alt="Microphone" class="playing" style="display: none;">
-      <img src="https://i.imgur.com/AjGnlNR.png" alt="Muted" class="muted">
-    </div>
+      <div id="microphone-icon">
+          <img src="Images/volume-adjustment.svg" alt="Microphone" class="playing" style="display: none;">
+          <img src="Images/mute.svg" alt="Muted" class="muted">
+      </div>
     <section id="home" class="home">
       <ul id="languageSwitcher" class="navbar-nav">
         <div class="row div-change-language">
@@ -137,7 +124,112 @@
     <!-- "nav" Anfang -->
 
 
-    
+    <section id="news" class="news-section">
+        <div class="container">
+            <div class="card-n">
+                <div class="row no-gutters align-items-center">
+                    <!-- News Column -->
+                    <div class="col-md-12">
+                        <div class="card-body">
+                            <h2 class="card-title custombold-text">
+                                Aktuelle Nachrichten & Updates!
+                            </h2>
+                            <div class="news-container">
+                                <!-- News Item 1 -->
+                                <div class="news-item">
+                                    <h2 class="news-title custombold-text">
+                                        Morphing feiert seinen Erfolg auf Tour in Brasilien!
+                                    </h2>
+                                    <img
+                                            src="https://i.imgur.com/9kc19vi.jpeg"
+                                            alt="News visual"
+                                            class="news-image"
+                                    />
+                                    <p class="news-desc customreg-text">
+                                        Das Morphing Chamber Orchestra ist nach einer erfolgreichen 4-Städte-Tournee in Brasilien zusammen mit dem Pianisten Álvaro Siviero,
+                                        bei der sie Wiener Klassiker von Mozart, Kreisler, Strauss sowie Chopins Konzert Nr. 1 aufführten, wieder in Europa gelandet.
+                                        Die Tournee war das Ergebnis einer langjährigen Zusammenarbeit zwischen Herrn Siviero und dem künstlerischen Leiter des MCO, Tomasz Wabnic,
+                                        und sie bereiten sich bereits auf kommende Projekte vor! Als nächstes steht ein Konzert im Manggha Museum für Japanische Kunst und Technologie
+                                        in Krakau, Polen, am 18. September an. Herr Wabnic freut sich darauf, Chopin wieder in seine Heimat zu bringen und die gleiche Freundschaft und
+                                        Gastfreundschaft Herrn Siviero in Europa zu erweisen!
+                                    </p>
+                                </div>
+                                <!-- News Item 2 -->
+                                <div class="news-item">
+                                    <h2 class="news-title custombold-text">CLASSIQUE "IN BLUE"</h2>
+                                    <img
+                                            src="https://i.imgur.com/eKqarcx.jpeg"
+                                            alt="News visual"
+                                            class="news-image"
+                                    />
+                                    <p class="news-desc customreg-text">
+                                        Am 14. November 2023 um 20:00 Uhr in der Cathédrale St. Louis, Les Invalides in Paris treten Makoto Ozone & Franco Avitabile an den Klavieren auf,
+                                        begleitet vom Morphing Chamber Orchestra unter der künstlerischen Leitung und Viola von Tomasz Wabnic und mit Yuuki Wong an der Violine.
+
+                                    </p>
+                                </div>
+                                <!-- News Item 3 -->
+                                <div class="news-item">
+                                    <h2 class="news-title custombold-text">
+                                        MYSTICAL MORPHING WITH ANDREAS SCHOLL BACH / PÄRT
+                                    </h2>
+                                    <img
+                                            src="https://i.imgur.com/hsF2CHV.png"
+                                            alt="News visual"
+                                            class="news-image"
+                                    />
+                                    <p class="news-desc customreg-text">
+                                        Oktober 2023, 20:00 Uhr Minoritenkirche Wien Minoritenplatz 2A, 1010 Wien
+
+                                    </p>
+                                </div>
+                                <!-- News Item 4 -->
+                                <div class="news-item">
+                                    <h2 class="news-title custombold-text">
+                                        DAS MORPHING CHAMBER ORCHESTRA WURDE IN 4 KATEGORIEN FÜR SEIN ALBUM ARVO PÄRT „STABAT MATER“ / ÀPARTE NOMINIERT!
+                                    </h2>
+                                    <img
+                                            src="https://i.imgur.com/SQET80Z.jpg"
+                                            alt="News Arvo"
+                                            class="news-image-arvo"
+                                    />
+                                    <p class="news-desc customreg-text">
+                                        Orchester des Jahres <br>
+                                        Opernaufnahme des Jahres [Aleksandra Kurzak, Andreas Scholl & Roberto Alagna] <br>
+                                        Dirigent des Jahres [Tomasz Wabnic] <br>
+                                        Sänger des Jahres [Andreas Scholl]
+                                    </p>
+                                </div>
+                                <!-- News Item 5 -->
+                                <div class="news-item">
+                                    <h2 class="news-title custombold-text">CD-Veröffentlichung 'Stabat Mater' / 28.10.2022</h2>
+                                    <img
+                                            src="https://i.imgur.com/baN3lgm.jpg"
+                                            alt="Arvo Pärt"
+                                            class="news-image"
+                                    />
+                                    <p class="news-desc customreg-text">
+                                        Label www.aparte.com Paris
+                                        Ton Master: Nicolas Bartholomee <br><br>
+
+                                        Producer: Aparte and Morphing <br><br>
+
+                                        Solisten: <br>
+                                        Aleksandra Kurzak – Sopran<br>
+                                        Andreas Scholl – Countertenor<br>
+                                        Roberto Alagna – Tenor<br>
+                                        Tomasz Wabnic – Viola, Artistic Director<br>
+                                        Christian Erny – Dirigent (Stabat Mater, Wallfahrtslied)
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -167,7 +259,9 @@
 
             <p>
                 <span class="highlight">MORPHING x JOHANN STRAUSS <br>
-                    Das 200-jährige Jubiläum im Jahr 2025</span><br><br>
+                    Das 200-jährige Jubiläum im Jahr 2025</span><br>
+                <span id="timer" class="countdown-timer">Loading...</span><br>
+                <br>
                         Mit Sitz in Wien, dem Herzen der ehemaligen Donaumonarchie, ist das kosmopolitische VIENNA MORPHING ORCHESTRA* mit den Werken der Strauss Dynastie mehr als vertraut.
                         200 Jahre Jubiläum von Johann Strauss Sohn ist Anlass zu einem wunderbaren musikalischen Fest!
                         Vom Galopp zu den Polkas bis zu den berühmtesten Walzer darf nichts fehlen.
@@ -484,29 +578,29 @@ Yuuki Wong, Violine <br>
                 die durch eine direkte Zusammenarbeit mit dem Meister selbst bereichert wurde. Auf dem Programm
                  findet sich unter anderem das Vater Unser, das in Österreich uraufgeführt wurde. <br>
 
-                 Das Programm im Detail:    <br> <br>
+                  <!-- Das Programm im Detail:    <br> <br>
 
-                1. PÄRT - Es sang von langen Jahren <br>
-                2. BACH - Orgelsonate Nr. 4 BWV 582: II. Andante (arr. Tomasz Wabnic Streichtrio) <br>
-                3. BACH - Ach bleibe doch, mein liebstes Leben BWV 11 <br>
-                4. PÄRT - Summa <br>
-                5. PÄRT - My Heart’s in the Highlands <br>
-                6. BACH - Air  <br> <br>
-
-
-                7. PÄRT - Vater Unser <br>
-                8. BACH - Aus tiefer Not schrei ich zu Dir BWV 687 (arr. Tomasz Wabnic Streichquintett) <br>
-                9. BACH - Schlummert ein Ihr Matten Augen BWV 82 <br>
-                10. PÄRT - Fratres <br>
-                11. PÄRT - Wallfahrtslied  <br> <br>
+                  1. PÄRT - Es sang von langen Jahren <br>
+                  2. BACH - Orgelsonate Nr. 4 BWV 582: II. Andante (arr. Tomasz Wabnic Streichtrio) <br>
+                  3. BACH - Ach bleibe doch, mein liebstes Leben BWV 11 <br>
+                  4. PÄRT - Summa <br>
+                  5. PÄRT - My Heart’s in the Highlands <br>
+                  6. BACH - Air  <br> <br>
 
 
-                4th October 2023, 8pm
-                Minoritenkirche Vienna
-                Minoritenplatz 2A, 1010 Vienna
-            </p>
+                  7. PÄRT - Vater Unser <br>
+                  8. BACH - Aus tiefer Not schrei ich zu Dir BWV 687 (arr. Tomasz Wabnic Streichquintett) <br>
+                  9. BACH - Schlummert ein Ihr Matten Augen BWV 82 <br>
+                  10. PÄRT - Fratres <br>
+                  11. PÄRT - Wallfahrtslied  <br> <br>
 
-              <!-- Featured Artists list -->
+
+                  4th October 2023, 8pm
+                  Minoritenkirche Vienna
+                  Minoritenplatz 2A, 1010 Vienna -->
+              </p>
+
+                <!-- Featured Artists list -->
               <p class="featured-artists-title">Mitwirkende Künstler:</p>
               <ul class="artist-list">
                 <li>
@@ -648,7 +742,7 @@ Yuuki Wong, Violine <br>
                <!-- Featured Artists list -->
               <p class="featured-artists-title">Featured Artists:</p>
               <ul class="artist-list">
-                <li><a href="Tomasz_Musician.html">Tomasz Wabnic, Musikalischer Leiter</a></li>
+                <li><a href="#biography">Tomasz Wabnic, Musikalischer Leiter</a></li>
                 <li>Timna Brauer, Gesang</li>
                 <li>Marwan Abado, Oud & Gesang</li>
                 <li>Makoto Ozone, Klavier</li>
@@ -723,11 +817,11 @@ Yuuki Wong, Violine <br>
               <!-- Featured Artists list -->
               <p class="featured-artists-title">Featured Artists:</p>
               <ul class="artist-list">
-                <li><a href="Tomasz_Musician.html">Tomasz Wabnic, Musikalischerv eiter</a></li>
-                <li><a href="Yuuki.html">Yuuki Wong, Violine</a></li>
-                <li><a href="alice.html">Alison Lie, Violine</a></li>
-                <li><a href="Nikita_Kuts.html">Nikita Kuts, Violine</a></li>
-                <li><a href="Josefina.html">Josefina, Violine</a></li>
+                <li><a href="#biography">Tomasz Wabnic, Musikalischerv eiter</a></li>
+                <li><a href="#our-musicians">Yuuki Wong, Violine</a></li>
+                <li><a href="#our-musicians">Alison Lie, Violine</a></li>
+                <li><a href="#our-musicians">Nikita Kuts, Violine</a></li>
+                <li><a href="#our-musicians">Josefina, Violine</a></li>
                 <li>Joseph Tawadros , Oud</li>
                 <li>Tim Allhof, Klavier</li>
             </ul>
@@ -1820,117 +1914,6 @@ zu erschaffen. Heute lebt er mit seiner Familie in Wien.
 
 
 
-
-
-
-
-    <section id="news" class="news-section">
-      <div class="container">
-        <div class="card-n">
-          <div class="row no-gutters align-items-center">
-            <!-- News Column -->
-            <div class="col-md-12">
-              <div class="card-body">
-                <h2 class="card-title custombold-text">
-                    Aktuelle Nachrichten & Updates!
-                </h2>
-                <div class="news-container">
-                  <!-- News Item 1 -->
-                  <div class="news-item">
-                    <h2 class="news-title custombold-text">
-                        Morphing feiert seinen Erfolg auf Tour in Brasilien!
-                    </h2>
-                    <img
-                      src="https://i.imgur.com/9kc19vi.jpeg"
-                      alt="News visual"
-                      class="news-image"
-                    />
-                    <p class="news-desc customreg-text">
-                        Das Morphing Chamber Orchestra ist nach einer erfolgreichen 4-Städte-Tournee in Brasilien zusammen mit dem Pianisten Álvaro Siviero, 
-                        bei der sie Wiener Klassiker von Mozart, Kreisler, Strauss sowie Chopins Konzert Nr. 1 aufführten, wieder in Europa gelandet. 
-                        Die Tournee war das Ergebnis einer langjährigen Zusammenarbeit zwischen Herrn Siviero und dem künstlerischen Leiter des MCO, Tomasz Wabnic,
-                         und sie bereiten sich bereits auf kommende Projekte vor! Als nächstes steht ein Konzert im Manggha Museum für Japanische Kunst und Technologie 
-                         in Krakau, Polen, am 18. September an. Herr Wabnic freut sich darauf, Chopin wieder in seine Heimat zu bringen und die gleiche Freundschaft und 
-                         Gastfreundschaft Herrn Siviero in Europa zu erweisen!
-                    </p>
-                  </div>
-                  <!-- News Item 2 -->
-                  <div class="news-item">
-                    <h2 class="news-title custombold-text">CLASSIQUE "IN BLUE"</h2>
-                    <img
-                      src="https://i.imgur.com/eKqarcx.jpeg"
-                      alt="News visual"
-                      class="news-image"
-                    />
-                    <p class="news-desc customreg-text">
-                        Am 14. November 2023 um 20:00 Uhr in der Cathédrale St. Louis, Les Invalides in Paris treten Makoto Ozone & Franco Avitabile an den Klavieren auf,
-                        begleitet vom Morphing Chamber Orchestra unter der künstlerischen Leitung und Viola von Tomasz Wabnic und mit Yuuki Wong an der Violine.
-                                                      
-                    </p>
-                  </div>
-                  <!-- News Item 3 -->
-                  <div class="news-item">
-                    <h2 class="news-title custombold-text">
-                      MYSTICAL MORPHING WITH ANDREAS SCHOLL BACH / PÄRT
-                    </h2>
-                    <img
-                      src="https://i.imgur.com/hsF2CHV.png"
-                      alt="News visual"
-                      class="news-image"
-                    />
-                    <p class="news-desc customreg-text">
-                        Oktober 2023, 20:00 Uhr Minoritenkirche Wien Minoritenplatz 2A, 1010 Wien
-
-                    </p>
-                  </div>
-                  <!-- News Item 4 -->
-                  <div class="news-item">
-                    <h2 class="news-title custombold-text">
-                                    DAS MORPHING CHAMBER ORCHESTRA WURDE IN 4 KATEGORIEN FÜR SEIN ALBUM ARVO PÄRT „STABAT MATER“ / ÀPARTE NOMINIERT! 
-                    </h2>
-                    <img
-                            src="https://i.imgur.com/SQET80Z.jpg"
-                            alt="News Arvo"
-                            class="news-image-arvo"
-                    />
-                    <p class="news-desc customreg-text">
-                        Orchester des Jahres <br>
-                        Opernaufnahme des Jahres [Aleksandra Kurzak, Andreas Scholl & Roberto Alagna] <br>
-                        Dirigent des Jahres [Tomasz Wabnic] <br>
-                        Sänger des Jahres [Andreas Scholl]
-                    </p>
-                  </div>
-                  <!-- News Item 5 -->
-                  <div class="news-item">
-                    <h2 class="news-title custombold-text">CD-Veröffentlichung 'Stabat Mater' / 28.10.2022</h2>
-                    <img
-                            src="https://i.imgur.com/baN3lgm.jpg"
-                            alt="Arvo Pärt"
-                            class="news-image"
-                    />
-                    <p class="news-desc customreg-text">
-                        Label www.aparte.com Paris
-                                    Ton Master: Nicolas Bartholomee <br><br>
-
-                                    Producer: Aparte and Morphing <br><br>
-
-                                    Solisten: <br>
-                                    Aleksandra Kurzak – Sopran<br>
-                                    Andreas Scholl – Countertenor<br>
-                                    Roberto Alagna – Tenor<br>
-                                    Tomasz Wabnic – Viola, Artistic Director<br>
-                                    Christian Erny – Dirigent (Stabat Mater, Wallfahrtslied)
-                    </p>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <div class="fixed-music-player">
       <audio id="musicPlayer" preload="auto"></audio>
       <div class="player-controls">
@@ -2015,19 +1998,12 @@ zu erschaffen. Heute lebt er mit seiner Familie in Wien.
       };
     </script>
 
-    <section id="bottom-section">
-      <img
-        id="bottom-image"
-        src=""
-        alt="Descriptive Alt Text"
-        style="opacity: 0; transition: opacity 2s"
-      />
-    </section>
+
 
     <footer class="footer-distributed" id="contact-footer">
       <div class="footer-left">
         <img
-          src="https://www.morphingmusic.com/wp-content/uploads/2020/10/M_Logo.png"
+          src="https://i.imgur.com/HvkRXDW.png"
           class="footer-logo"
         />
         <p class="footer-links">
@@ -2160,8 +2136,35 @@ führt, während gleichzeitig nach Exzellenz in der Aufführung gestrebt wird.
 
     </script>
 
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script src="newJS.js"></script>
+    <script>
+        function countdown() {
+            const countToDate = new Date("2025-01-01T00:00:00").getTime();
+            const now = new Date().getTime();
+            const difference = countToDate - now;
+
+            if (difference < 0) {
+                document.getElementById('timer').innerText = "Event has started!";
+                return; // Stop the countdown when the date is reached
+            }
+
+            const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+
+            if (days > 1) {
+                document.getElementById('timer').innerText = `Event starts in: ${days} days`;
+            } else if (days === 1) {
+                document.getElementById('timer').innerText = `Event starts in: 1 day, ${hours}h ${minutes}m`;
+            } else {
+                document.getElementById('timer').innerText = `Event starts in: ${hours}h ${minutes}m`;
+            }
+
+            setTimeout(countdown, 1000);
+        }
+
+        countdown();
+    </script>
+
 <script src="https://kit.fontawesome.com/your-script-id.js" crossorigin="anonymous"></script>
     <script src="redirect-script.js"></script>
   </body>
