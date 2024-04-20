@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const nextMonthElement = document.querySelector(".next-month");
 
     const concerts = [
-      { date: 22, month: 3, year: 2024, url: "https://konzerthaus.at/konzert/eventid/61188" }, // April 22
+      { date: 29, month: 3, year: 2024, url: "https://konzerthaus.at/konzert/eventid/61188" },
       { date: 19, month: 4, year: 2024, url: "https://konzerthaus.at/konzert/eventid/61188" }  // Mai 19
     ];
 
@@ -542,8 +542,6 @@ document.addEventListener('DOMContentLoaded', function() {
       this.classList.toggle('is-active');
   });
 });
-
-
 
 
 
