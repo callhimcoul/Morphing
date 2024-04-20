@@ -583,6 +583,7 @@ section:not(#home)::before {
   /* Additional styling for these elements */
 }
 
+
 #orchestra h2 {
   color: #ffffff; /* Adjust the color as needed */
   margin-top: 3rem;
@@ -2877,6 +2878,14 @@ button {
   height: auto;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+}
+
+.member-image1 img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  box-shadow: 0 0 15px 3px white;
 }
 
 .member-info {
