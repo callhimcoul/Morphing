@@ -136,6 +136,62 @@
       object-fit: contain;
       margin-top: 8vh;
     }
+
+    /* Dropdown Styles */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      margin: 0 auto; /* Center the dropdown */
+    }
+
+
+    .dropbtn {
+      background-color: white;
+      color: black;
+      padding: 5px 10px;
+      font-size: 18px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .dropbtn:hover {
+      background-color: lightyellow;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #222; /* Slightly darker background */
+      min-width: 180px;
+      box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.5);
+      z-index: 1;
+      border-radius: 5px;
+    }
+
+    .dropdown-content a {
+      color: #ddd;  /* Light gray text */
+      padding: 14px 18px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #0077b6; /* Highlight with original gradient color */
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .dropdown-container {
+      display: flex;
+      justify-content: center; /* Horizontally center the content */
+      align-items: center; /* Vertically center the content */
+      margin-bottom: 20px; /* Add some space between the "Morphing Image Gallery" text and the dropdown */
+    }
+
+
+
   </style>
 </head>
 <body>
@@ -149,57 +205,76 @@
   <h2 class="custombold-text">Morphing Image Gallery</h2>
 </div>
 
-<div class="row">
-  <!-- Reinserted images with corrected aspect ratio -->
-  <div class="column">
-    <img src="https://i.imgur.com/AtT9WIo.png" alt="Orchestra in Japan" onclick="myFunction(this);">
+<div class="dropdown-container">
+  <div class="dropdown">
+    <button class="dropbtn">Sections</button>
+    <div class="dropdown-content">
+      <a href="#all">Show All</a>
+      <a href="#section1">Covers & Labels</a>
+      <a href="#section2">Performance</a>
+      <a href="#section3">Archive</a>
+    </div>
   </div>
-  <div class="column">
+</div>
+
+<div class="row">
+  <div class="section1 column">
+    <img src="https://i.imgur.com/cQAL9XP.png" alt="." onclick="myFunction(this);">
+  </div>
+  <div class="section1 column">
+    <img src="https://i.imgur.com/zIlBs9v.png" alt="." onclick="myFunction(this);">
+  </div>
+  <div class="section1 column">
+    <img src="https://i.imgur.com/FjFQKlO.jpg" alt="." onclick="myFunction(this);">
+  </div>
+  <div class="section1 column">
+    <img src="https://i.imgur.com/A4hEf7U.gif" alt="." onclick="myFunction(this);">
+  </div>
+  <div class="section1 column">
+    <img src="https://i.imgur.com/Ao4053n.png" alt="." onclick="myFunction(this);">
+  </div>
+  <div class="section2 column">
+    <img src="https://i.imgur.com/JS4LlTq.jpg" alt="." onclick="myFunction(this);">
+  </div>
+  <div class="section2 column">
+    <img src="https://i.imgur.com/xb2wllP.jpg" alt="." onclick="myFunction(this);">
+  </div>
+  <div class="section2 column">
     <img src="https://i.imgur.com/cCywbJx.jpg" alt="Morphing Night Life" onclick="myFunction(this);">
   </div>
-  <div class="column">
+  <div class="section2 column">
+    <img src="https://i.imgur.com/54FBlav.jpg" alt="." onclick="myFunction(this);">
+  </div>
+  <div class="section2 column">
+    <img src="https://i.imgur.com/OYlQhpT.jpg" alt="." onclick="myFunction(this);">
+  </div>
+  <div class="section2 column">
+    <img src="https://i.imgur.com/jf5Xzv6.jpg" alt="." onclick="myFunction(this);">
+  </div>
+  <div class="section2 column">
+    <img src="https://i.imgur.com/VzxHfxr.png" alt="." onclick="myFunction(this);">
+  </div>
+  <div class="section2 column">
+    <img src="https://i.imgur.com/fesIQhk.jpg" alt="." onclick="myFunction(this);">
+  </div>
+  <div class="section3 column">
     <img src="https://i.imgur.com/afkdbvb.jpg" alt="New Year" onclick="myFunction(this);">
   </div>
-  <div class="column">
-    <img src="https://i.imgur.com/xb2wllP.jpg" alt="Orchestra" onclick="myFunction(this);">
+  <div class="section3 column">
+    <img src="https://i.imgur.com/1Cbu4Ry.jpg" alt="." onclick="myFunction(this);">
   </div>
-  <div class="column">
-    <img src="https://i.imgur.com/qWU5Nl5.jpg" alt="Stand With Ukraine" onclick="myFunction(this);">
+  <div class="section3 column">
+    <img src="https://i.imgur.com/AtT9WIo.png" alt="Orchestra in Japan" onclick="myFunction(this);">
   </div>
-  <div class="column">
-    <img src="https://i.imgur.com/HI1XEyR.jpg" alt="Morphing" onclick="myFunction(this);">
+  <div class="section3 column">
+    <img src="https://i.imgur.com/r54IApo.jpg" alt="." onclick="myFunction(this);">
   </div>
-  <div class="column">
-    <img src="https://i.imgur.com/VzxHfxr.png" alt="Davos" onclick="myFunction(this);">
+  <div class="section3 column">
+    <img src="https://i.imgur.com/HI1XEyR.jpg" alt="." onclick="myFunction(this);">
   </div>
-  <div class="column">
-    <img src="https://i.imgur.com/JS4LlTq.jpg" alt="Church Performance" onclick="myFunction(this);">
+  <div class="section3 column">
+    <img src="https://i.imgur.com/qWU5Nl5.jpg" alt="." onclick="myFunction(this);">
   </div>
-  <div class="column">
-    <img src="https://i.imgur.com/zIlBs9v.png" alt="Aparte Logo" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="https://i.imgur.com/fesIQhk.jpg" alt="Davos" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="https://i.imgur.com/jf5Xzv6.jpg" alt="Yuuki Wong" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="https://i.imgur.com/54FBlav.jpg" alt="Tomasz Wabnic" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="https://i.imgur.com/1Cbu4Ry.jpg" alt="Concert for Ukraine" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="https://i.imgur.com/cQAL9XP.png" alt="Concert for Ukraine" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="https://i.imgur.com/FjFQKlO.jpg" alt="Morphing x Johann Strauss" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="https://i.imgur.com/OYlQhpT.jpg" alt="La Scala, Milano" onclick="myFunction(this);">
-  </div>
-  <!-- Repeat for each image you want to include, adjusting src and alt attributes accordingly -->
 </div>
 
 <div class="container">
@@ -239,6 +314,46 @@
       this.style.display = 'none';
     }
   });
+
+  const dropdownButton = document.querySelector('.dropbtn');
+  const dropdownLinks = document.querySelectorAll('.dropdown-content a');
+
+  dropdownLinks.forEach(link => {
+    link.addEventListener('click', (event) => {
+      event.preventDefault(); // Prevent default link behavior
+      const targetSection = link.getAttribute('href').slice(1); // Get section ID
+
+      // Hide all images
+      const images = document.querySelectorAll('.column img');
+      images.forEach(img => {
+        img.parentElement.style.display = 'none';
+      });
+
+      // Show images from the selected section
+      const sectionImages = document.querySelectorAll(`.${targetSection} img`); // Use class selector
+      sectionImages.forEach(img => {
+        img.parentElement.style.display = 'flex';
+      });
+
+      dropdownButton.textContent = link.textContent; // Update the button text
+    });
+  });
+
+  function showAllImages() {
+    const images = document.querySelectorAll('.column img');
+    images.forEach(img => {
+      img.parentElement.style.display = 'flex';
+    });
+  }
+
+  // Add event listener to the "Show All "link
+  const showAllLink = document.querySelector('.dropdown-content a[href="#all"]');
+  showAllLink.addEventListener('click', (event) => {
+    event.preventDefault();
+    showAllImages();
+    dropdownButton.textContent = "Sections"; // Reset button text
+  });
+
 </script>
 </body>
 </html>
